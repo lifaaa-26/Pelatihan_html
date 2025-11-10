@@ -1,20 +1,19 @@
-body{
-  background-color: #8B008B;
-  font-family:Arial, sans-serif;
-  color: #191970;
-}
-.kartu-foto profil{
-  width:300px:
-  margin:50px auto;
-  padding:20px;
-  background-color:cyam;
-  border-radius:15px;
-  box-shadow:0 4px 8px rgba(0,0,0,0,1);
-  text-align:center;
-}
-.kartu-foto profil img{
-  width:150px;
-  heigth:150px;
-  border-radius:50%;
-}
-  
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kartu Profil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="kartu-foto-profil">
+    <img src="foto.jpg" alt="Foto Profil">
+    <h2>Nama Kamu</h2>
+    <p>Deskripsi singkat tentang kamu.</p>
+    <button id="sapaButton">Sapa Saya</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
